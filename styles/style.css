@@ -243,3 +243,62 @@ section {
     margin-top: 50px;
     border-radius: 48px;
 }
+/* get is touch styles */
+.get-in-touch {
+
+}
+.get-in-touch-content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.get-in-touch-left {
+    width: 65%;
+}
+.get-in-touch-right {
+    width: 55%;
+}
+.get-in-touch-left h2 {
+    font-size: 97px;
+    font-weight: bold;
+}
+.get-in-touch label {
+    margin: 10px 0px;
+    display: block;
+}
+.get-touch input,textarea{
+    display: block;
+    padding: 20px 32px;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    
+}
+
+.get-in-touch textarea, input::placeholder {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+form a{
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+}
+input[type="submit"]{
+    display: block;
+    color: red;
+    width: 100%;
+    padding: 20px 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
