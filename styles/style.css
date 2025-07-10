@@ -148,3 +148,50 @@ section {
 .item p {
     text-align: center;
 }
+/* user feedback styles */
+.user-feedback-title h2{
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.user-feedback-items {
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 14px;
+}
+.feedbace-items-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.user-content {
+    margin: 24px 0px;
+}
+.user-content h3 {
+    font-size: 30px;
+    
+}
+.user-content p {
+    color: #252432;
+    font-weight: 300;
+    margin-top: 8px;
+}
+.reviewr-name {
+    display: flex;
+    gap: 15px;
+    align-items: center; 
+}
+.reviewr-img img {
+    border-radius: 50%;
+}
+.reviewr-title h5{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+}
+.reviewr-title p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: 5px;
+}
