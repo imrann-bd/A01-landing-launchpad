@@ -43,11 +43,13 @@
     font-style: 16px;
     text-decoration: none;
 }
+
 .des {
     font-size: 24px;
     color: rgba(0, 0, 0, 0.5);
     font-family: "Raleway", sans-serif;
 }
+
 /* header and banner styles */
 header {
     background-image: url(../Assets/Hero-bg.png);
@@ -80,6 +82,7 @@ header {
 body {
     background-color: #f5f8ff;
 }
+
 .banner {}
 
 .banner-content {
@@ -99,99 +102,144 @@ body {
     text-decoration: none;
     margin-top: 50px;
 }
+
 /* action syles */
 main {
     max-width: 1140px;
     margin: 0px auto;
-    
+
 }
+
 section {
     margin: 110px 0px;
 }
+
 .action-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .action-left-side h2 {
     font-size: 42px;
     font-weight: bold;
 }
+
 .action-left-side p {
     line-height: 32px;
     margin: 34px 0px;
-} 
+}
+
 .action-right-side img {
     border-radius: 50px;
     width: 100%;
 }
+
 /* productive user section styles */
 .productive-user {
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
     padding: 50px 80px;
 }
+
 .productive-title h2 {
     text-align: center;
     font-size: 38px;
     font-weight: bold;
     margin-bottom: 40px;
 }
+
 .productive-user-title {
     display: flex;
     justify-content: space-between;
 }
+
 .item h2 {
     font-size: 80px;
     font-weight: bold;
 }
+
 .item p {
     text-align: center;
 }
+
 /* user feedback styles */
-.user-feedback-title h2{
+.user-feedback-title h2 {
     font-size: 42px;
     text-align: center;
     margin-bottom: 50px;
 }
+
 .user-feedback-items {
     background-color: #fff;
     padding: 24px;
     border-radius: 14px;
 }
+
 .feedbace-items-container {
     display: flex;
     justify-content: space-evenly;
     gap: 15px;
 }
+
 .user-content {
     margin: 24px 0px;
 }
+
 .user-content h3 {
     font-size: 30px;
-    
+
 }
+
 .user-content p {
     color: #252432;
     font-weight: 300;
     margin-top: 8px;
 }
+
 .reviewr-name {
     display: flex;
     gap: 15px;
-    align-items: center; 
+    align-items: center;
 }
+
 .reviewr-img img {
     border-radius: 50%;
 }
-.reviewr-title h5{
+
+.reviewr-title h5 {
     font-size: 18px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.5);
 }
-.reviewr-title p{
+
+.reviewr-title p {
     font-size: 14px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.3);
     margin-top: 5px;
+}
+
+/* ready and focus section styles */
+.ready-focus-section {
+    padding: 70px 150px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.ready-focus-cotnent {
+    text-align: center;
+}
+
+.ready-focus-cotnent h2 {
+    font-size: 50px;
+}
+
+.ready-focus-cotnent p {
+    font-size: 18px;
+    margin: 30px 0px;
+}
+.ready-focus-cotnent img {
+    margin-top: 50px;
+    border-radius: 48px;
 }
