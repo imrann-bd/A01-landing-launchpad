@@ -42,6 +42,12 @@
     font-weight: bold;
     font-style: 16px;
     text-decoration: none;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: transparent;
+    border: 1px solid #4E47FF;
+    color: #252432;
 }
 
 .des {
@@ -301,4 +307,42 @@ input[type="submit"]{
     border: none;
     color: #fff;
     font-size: 18px;
+}
+.input-hover{
+    transition: 0.3s;
+}
+.input-hover:hover {
+    background: transparent;
+    border: 1px solid #4E47FF;
+    color: #252432;
+}
+/* footer section styles */
+footer {
+    background-color: #fff;
+    width: 100%;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-content h2{
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.footer-menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 35px;
+}
+.footer-menu ul li {
+    list-style: none;
+}
+.footer-menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Raleway", sans-serif;
 }
